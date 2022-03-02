@@ -99,7 +99,7 @@ let gameOver = () => {
 }
 
 let playGame = () => {
-    alert('Bem vindo ao Brutal Genius! \n Iniciando novo jogo...')
+    alert('Bem vindo ao Evil Genius! \n Iniciando novo jogo...')
     score = 0;
 
     shuffleOrder();

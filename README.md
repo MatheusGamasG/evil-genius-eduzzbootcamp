@@ -4,6 +4,7 @@ Jogo Genius realizado para o bootcamp Eduzz Fullstack Developer #3 na plataforma
 
 ## Modificações:
 
+- [X] Responsividade
 - [X] Tema "Evil" adicionado para denotar dificuldade 
 - [X] Aumentado o nível de dificuldade
 - [X] Aumentado o número de botões para 10

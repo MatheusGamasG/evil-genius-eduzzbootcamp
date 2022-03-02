@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background:rgb(24, 23, 23);
+    background:linear-gradient(to right, rgb(204, 39, 39), rgb(37, 36, 36));
     
 }
 
@@ -15,6 +15,8 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
+    background:linear-gradient(to right, rgb(204, 39, 39), rgb(37, 36, 36));
+    height:20vh;
 }
 
 .header-logo {
@@ -30,10 +32,11 @@ body {
     height:10vh;
     color:rgb(207, 0, 0);
     text-shadow: 1px 1px 4px #ffffff;
+    line-height:10vh;
 }
 
 .main-game {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     display:flex;
     justify-content: center;
@@ -47,12 +50,11 @@ body {
     grid-gap: 10px;
     border-radius:20%;
     border: 1px solid #e98888;
-    background-color: #da7979;
+    /* background-color: #da7979; */
     margin: 2% 0 2% 0;
     padding:3%;
-    width: 700px;
-    height: 700px;
-    box-shadow: 2px 2px 6px rgb(209, 209, 209);
+    width: 40rem;
+    height: 60vh;
 }
 
 .blue {
@@ -127,4 +129,25 @@ body {
 
 .selected {
     opacity: 0.4;
+}
+
+@media screen and (max-width:768px) {
+    :root {
+        font-size:12px;
+    }
+
+    .genius {
+        width:30rem;
+        height:40vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    :root {
+        font-size:8px;
+    }
+
+    .genius {
+        height:20vh;
+    }
 }
