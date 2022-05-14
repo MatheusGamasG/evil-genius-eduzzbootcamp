@@ -1,4 +1,4 @@
-# Evil Genius
+# Evil Genius 😈
 
 Jogo Genius realizado para o bootcamp Eduzz Fullstack Developer #3 na plataforma Digital Innovation One. O objetivo era que houvesse modificações no projeto original, então:
 
